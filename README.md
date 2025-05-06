@@ -17,7 +17,7 @@ Este projeto foi desenvolvido com layout responsivo, permitindo que os usuários
 <img src="src/images/desafio.png">
 
 ### Link
-- [Projeto]()
+- [Projeto](https://devseravali.github.io/projeto-huddle-base/)
 
 ### Tecnologias utilizadas
 - HTML
