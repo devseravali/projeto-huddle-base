@@ -1,0 +1,111 @@
+body {
+    background: url(../images/bg-desktop.svg) no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.logo{
+    display: flex;
+    margin: 30px 30px;
+    padding: 18px 20px;
+    background-size: 15px;
+}
+
+.logo-principal {
+    height: 55px;
+    align-items: flex-start;
+    position: absolute;
+    margin-left: 20px;
+}
+
+.logo .logo-principal img {
+    top: 20px;
+    left: 20px;
+    align-content: center;
+    display: block;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+}
+
+.mockups {
+    margin: 63px 40px;
+    padding: 30px;
+}
+
+.texto{
+    display: inline-block;
+    align-content: space-around;
+    margin-bottom: 120px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+}
+
+.texto h1{
+    font-weight: 600;
+    font-size: 37px;
+    align-content: flex-start;
+    text-align: left;
+}
+
+.texto p{
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+}
+
+.btn{
+    background-color: #ffffff;
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 30px;
+    height: 50px;
+    width: 200px;
+    color: hsl(257, 40%, 49%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    margin-top: 35px;
+}
+
+.footer{ 
+    display: flex;
+    justify-content: flex-end;
+    margin: -6%;
+} 
+
+.link .fab{
+    color: #fff;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.link .fab:hover{
+    font-weight: 700;
+    border: 1px solid hsl(300, 69%, 71%);   
+    color: hsl(300, 69%, 71%);
+    transition: 0.3s;
+}
+
+.btn:hover{
+    font-weight: 400;
+    background-color: hsl(300, 69%, 71%);
+    color: #ffffff;
+    transition: 0.3s;
+}

@@ -1,0 +1,108 @@
+@media (max-width: 480px) {
+    body {
+        background: url(../images/bg-mobile.svg) no-repeat;
+        background-color: hsl(257, 40%, 49%);
+        color: #ffffff;
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: flex-start;
+        position: relative;
+        padding: 15px;
+        width: 100%;
+    }
+
+    .logo .logo-principal {
+        position: absolute;
+        height: 95%;
+        margin: 0;
+    }
+
+    .logo .logo-principal img {
+        height: 40px;
+    }
+
+    .container {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+    }
+
+    .mockups {
+        width: 65%;
+        padding: 10px;
+        margin: 20px;
+        justify-content: center;
+    }
+
+    .texto {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .texto h1 {
+        font-size: 22px;
+        justify-content: center; 
+        text-align: center;
+        width: 65%;
+        margin: 20px;
+       justify-items: center;
+    }
+
+    .texto p {
+        text-align: center;
+        font-size: 16px;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        width: 63%;
+    }
+
+    .btn {
+        position: absolute;
+        left: 10%;
+        margin-top: 1vh;
+        margin-left: 1vh;
+        transform: translate(-50, -50);
+        width: 40%;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .footer {
+        display: block;
+        margin-left: 8vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .link .fab {
+        text-align: center;
+        align-content: center;
+        transform: scale(0.7);
+        margin: 0 0;
+        padding: 0 0;
+    }
+
+
+    .link .fab:hover {
+        font-weight: 700;
+        border: 1px solid hsl(300, 69%, 71%);
+        color: hsl(300, 69%, 71%);
+        transition: 0.3s;
+    }
+
+    .btn:hover {
+        font-weight: 400;
+        background-color: hsl(300, 69%, 71%);
+        color: #ffffff;
+        transition: 0.3s;
+    }
+
+}
