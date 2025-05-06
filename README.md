@@ -14,7 +14,7 @@ Este projeto foi desenvolvido com layout responsivo, permitindo que os usuários
 
 
 ### Captura de tela
-<img src="src/images/desafio.png">
+<img src="src/images/desafio1.jpg">
 
 ### Link
 - [Projeto](https://devseravali.github.io/projeto-huddle-base/)
